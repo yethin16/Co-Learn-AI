@@ -1,0 +1,73 @@
+/* ---------- APP HEADER ---------- */
+.app-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  background-color: #7091E6;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.app-header h1 {
+  font-size: 1.8rem;
+  margin: 0;
+  text-align: center;
+}
+
+/* ---------- MAIN LAYOUT ---------- */
+.app-main {
+  display: flex;
+  margin-top: 60px; /* space for header */
+  height: calc(100vh - 60px);
+  width: 100%;
+}
+
+/* ---------- PANELS ---------- */
+.group-panel {
+  width: 20%;
+  min-width: 220px;
+  border-right: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-panel {
+  width: 55%;
+  min-width: 400px;
+  border-right: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+}
+
+.ai-panel {
+  flex: 1; /* occupy remaining right space */
+  display: flex;
+  flex-direction: column;
+  padding: 14px;
+  background: #ffffff;
+  overflow-y: auto;
+}
+
+/* ---------- SUMMARIZE BUTTON FIX ---------- */
+.ai-summary-button {
+  width: 100%;
+  padding: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 8px;
+  background-color: #7091E6;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.ai-summary-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

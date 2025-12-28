@@ -1,0 +1,94 @@
+/* Container */
+.auth-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 100vh;
+  background: #f4f6f8;
+  font-family: 'Inter', sans-serif;
+}
+
+/* LEFT PANEL: Features */
+.auth-features {
+  background: #7091E6;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+}
+
+.auth-features h1 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+}
+
+.auth-features p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  max-width: 350px;
+}
+
+.feature-list {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+/* RIGHT PANEL: Auth Card */
+.auth-card {
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  padding: 30px;
+  background: #fff;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.auth-card h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.auth-card input {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  outline: none;
+  font-size: 14px;
+}
+
+.auth-card button {
+  padding: 12px;
+  border-radius: 8px;
+  background: #7091E6;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.auth-card button:hover {
+  opacity: 0.9;
+}
+
+.auth-card p {
+  text-align: center;
+  font-size: 14px;
+  color: #7091E6;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.auth-error {
+  text-align: center;
+  color: #ff5c5c;
+  font-weight: 500;
+}

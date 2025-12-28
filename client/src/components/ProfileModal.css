@@ -1,0 +1,25 @@
+.dropdown{
+  position:absolute;
+  right:0;
+  background:#222;
+  color:white;
+  padding:10px;
+  border-radius:6px;
+  cursor:pointer;
+}
+
+.modal-overlay{
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,0.6);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.modal{
+  background:#fff;
+  padding:20px;
+  width:400px;
+  border-radius:8px;
+}

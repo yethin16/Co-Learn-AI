@@ -1,0 +1,77 @@
+.ai-panel {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 14px;
+  background: #ffffff;
+  overflow-y: auto;
+}
+
+/* Button */
+.ai-btn {
+  padding: 12px;
+  border-radius: 10px;
+  background: #7091E6;
+  color: white;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.ai-btn:hover {
+  background: #5c7ce0;
+}
+
+.ai-btn:disabled {
+  background: #c7d2fe;
+  cursor: not-allowed;
+}
+
+/* Text helpers */
+.ai-muted {
+  margin-top: 12px;
+  color: #6b7280;
+  font-size: 14px;
+}
+
+/* Sections */
+.ai-section {
+  margin-top: 18px;
+}
+
+.ai-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 8px;
+}
+
+.ai-text {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #374151;
+  white-space: pre-wrap;
+}
+
+/* File summary cards */
+.file-summary-card {
+  background: #f8faff;
+  border: 1px solid #e0e7ff;
+  border-radius: 10px;
+  padding: 12px;
+  margin-bottom: 10px;
+}
+
+.file-name {
+  font-weight: 600;
+  font-size: 14px;
+  color: #4338ca;
+  margin-bottom: 6px;
+}
+
+.file-summary-text {
+  font-size: 14px;
+  color: #374151;
+  line-height: 1.5;
+}
